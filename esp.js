@@ -219,7 +219,6 @@ function onMessageArrived(message)
 //  row2.cells[0].style.padding = "10px 20px 10px 20px";
   row2.cells[0].innerHTML='<table class="espdetailtable">'+
            '<tr><td>Hostname:</td><td>'+mqttdata[maintopic]["hostname"]+'</td></tr>'+
-           '<tr><td>Upgrade Status:</td><td>'+gettopic(maintopic, "status/upgrade")+'</td></tr>'+
            '<tr><td>Firmware Name:</td><td>'+mqttdata[maintopic]["firmware/name"]+'</td></tr>'+
            '<tr><td>Firmware Target:</td><td>'+mqttdata[maintopic]["firmware/target"]+'</td></tr>'+
            '<tr><td>Firmware Compiletime:</td><td>'+mqttdata[maintopic]["firmware/compiletime"]+'</td></tr>'+
